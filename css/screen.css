@@ -1,17 +1,19 @@
 @charset "UTF-8";
-body {
+@media screen and (min-width:650px){
+
+	body {
 		background-color: #f5f6f7;
     	margin: 0;
 	}
-div.container {
+	div.container {
 		margin: 0 auto 0;
     	width: 600px;
 	}
 	p.title {
 		text-align: center;
-		font-size: 40px;
+		font-size: 25px;
 		font-weight: bold;
-		letter-spacing: -6px;
+		letter-spacing: -2px;
 		color: #1fbc02;
 	}
 	
@@ -73,3 +75,4 @@ div.container {
 		background-color: #1fbc02;
 		color: #FFF;
 	}
+}
